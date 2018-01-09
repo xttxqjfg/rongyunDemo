@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>userId</key>
+		<string>test1</string>
+		<key>userName</key>
+		<string>测试1</string>
+		<key>userToken</key>
+		<string>c5fUJJYbzduU1gGyCOapXK40jmWdxOauy14HN4LDEEkb9CVvHjN1/KSxmbU3Cc75a2rIJIlJPpyZXR/78rpicg==</string>
+	</dict>
+    <dict>
+        <key>userId</key>
+        <string>test2</string>
+        <key>userName</key>
+        <string>测试2</string>
+        <key>userToken</key>
+        <string>RKpuhXctSz+WmWUsOtwcVa40jmWdxOauy14HN4LDEEkb9CVvHjN1/M9iNEXyjm8ba2rIJIlJPpzsDwzeZNbjig==</string>
+    </dict>
+    <dict>
+        <key>userId</key>
+        <string>test3</string>
+        <key>userName</key>
+        <string>测试3</string>
+        <key>userToken</key>
+        <string>GCvlgsCCphVz03p8BsBP31bg7Tp5tW/tsVcRW12fzelqo3HIqp8A5ZGPLidviMQYG/OjtiFLLSUUJT1l8RtOMA==</string>
+    </dict>
+</array>
+</plist>

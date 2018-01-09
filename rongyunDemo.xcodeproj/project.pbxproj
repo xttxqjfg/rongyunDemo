@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0EE8901FF60BBF00C08CC5 /* SendTextServiceMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0EE88F1FF60BBF00C08CC5 /* SendTextServiceMsg.m */; };
+		1A0EE8931FF60BD200C08CC5 /* SendMulMediaServiceMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0EE8921FF60BD200C08CC5 /* SendMulMediaServiceMsg.m */; };
+		1A0EE8961FF60D7300C08CC5 /* TextServiceMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0EE8951FF60D7300C08CC5 /* TextServiceMsgView.m */; };
+		1A0EE8981FF60D7E00C08CC5 /* TextServiceMsgView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0EE8971FF60D7E00C08CC5 /* TextServiceMsgView.xib */; };
+		1A0EE89B1FF60DAE00C08CC5 /* MultiServiceMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0EE89A1FF60DAE00C08CC5 /* MultiServiceMsgView.m */; };
+		1A0EE89D1FF60DB700C08CC5 /* MultiServiceMsgView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0EE89C1FF60DB600C08CC5 /* MultiServiceMsgView.xib */; };
+		1A12569C1FF5DF21001BB356 /* chat_room_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A12569B1FF5DF21001BB356 /* chat_room_inactive.png */; };
+		1A12569E1FF5DF29001BB356 /* chat_room.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A12569D1FF5DF29001BB356 /* chat_room.png */; };
+		1A1256A01FF5DF45001BB356 /* icon_Contacts_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A12569F1FF5DF45001BB356 /* icon_Contacts_hover.png */; };
+		1A1256A21FF5DF4C001BB356 /* icon_Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1256A11FF5DF4C001BB356 /* icon_Contacts.png */; };
+		1A1256A51FF5E042001BB356 /* PublicServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1256A41FF5E042001BB356 /* PublicServiceVC.m */; };
+		1A3CCEF01FFDC8270058F1B7 /* SendForAllMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CCEEF1FFDC8270058F1B7 /* SendForAllMsgVC.m */; };
+		1A3CCEF31FFDC83B0058F1B7 /* SendForAllMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CCEF21FFDC83B0058F1B7 /* SendForAllMsgView.m */; };
+		1A3CCEF51FFDC8440058F1B7 /* SendForAllMsgView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CCEF41FFDC8440058F1B7 /* SendForAllMsgView.xib */; };
+		1A3CCEFB1FFDD7880058F1B7 /* 20180104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CCEFA1FFDD7880058F1B7 /* 20180104.jpg */; };
+		1A3CCEFD1FFDE9B00058F1B7 /* 2018010401.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CCEFC1FFDE9B00058F1B7 /* 2018010401.jpg */; };
+		1A9D590D1FF4ED6600B243D4 /* ryUserList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A9D590C1FF4ED6600B243D4 /* ryUserList.plist */; };
+		1A9D59101FF4F35600B243D4 /* ExtendConversationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D590F1FF4F35600B243D4 /* ExtendConversationVC.m */; };
+		1A9D59131FF4F37E00B243D4 /* ExtendChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D59121FF4F37E00B243D4 /* ExtendChatVC.m */; };
+		1A9D59161FF4F8AA00B243D4 /* RYDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D59141FF4F8AA00B243D4 /* RYDataSource.m */; };
+		1AA7FC8E1FF4E5C40093EB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7FC8D1FF4E5C40093EB9D /* main.m */; };
+		1AA7FC911FF4E5C40093EB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7FC901FF4E5C40093EB9D /* AppDelegate.m */; };
+		1AA7FC941FF4E5C40093EB9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7FC931FF4E5C40093EB9D /* ViewController.m */; };
+		1AA7FC971FF4E5C40093EB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7FC951FF4E5C40093EB9D /* Main.storyboard */; };
+		1AA7FC991FF4E5C40093EB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7FC981FF4E5C40093EB9D /* Assets.xcassets */; };
+		1AA7FC9C1FF4E5C40093EB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7FC9A1FF4E5C40093EB9D /* LaunchScreen.storyboard */; };
+		7C33274061DD7507105FB636 /* libPods-rongyunDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E91127EC9BB919EA31D904 /* libPods-rongyunDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0EE88E1FF60BBF00C08CC5 /* SendTextServiceMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendTextServiceMsg.h; sourceTree = "<group>"; };
+		1A0EE88F1FF60BBF00C08CC5 /* SendTextServiceMsg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendTextServiceMsg.m; sourceTree = "<group>"; };
+		1A0EE8911FF60BD200C08CC5 /* SendMulMediaServiceMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendMulMediaServiceMsg.h; sourceTree = "<group>"; };
+		1A0EE8921FF60BD200C08CC5 /* SendMulMediaServiceMsg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMulMediaServiceMsg.m; sourceTree = "<group>"; };
+		1A0EE8941FF60D7300C08CC5 /* TextServiceMsgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextServiceMsgView.h; sourceTree = "<group>"; };
+		1A0EE8951FF60D7300C08CC5 /* TextServiceMsgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextServiceMsgView.m; sourceTree = "<group>"; };
+		1A0EE8971FF60D7E00C08CC5 /* TextServiceMsgView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextServiceMsgView.xib; sourceTree = "<group>"; };
+		1A0EE8991FF60DAE00C08CC5 /* MultiServiceMsgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiServiceMsgView.h; sourceTree = "<group>"; };
+		1A0EE89A1FF60DAE00C08CC5 /* MultiServiceMsgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiServiceMsgView.m; sourceTree = "<group>"; };
+		1A0EE89C1FF60DB600C08CC5 /* MultiServiceMsgView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiServiceMsgView.xib; sourceTree = "<group>"; };
+		1A12569B1FF5DF21001BB356 /* chat_room_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_room_inactive.png; sourceTree = "<group>"; };
+		1A12569D1FF5DF29001BB356 /* chat_room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_room.png; sourceTree = "<group>"; };
+		1A12569F1FF5DF45001BB356 /* icon_Contacts_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Contacts_hover.png; sourceTree = "<group>"; };
+		1A1256A11FF5DF4C001BB356 /* icon_Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Contacts.png; sourceTree = "<group>"; };
+		1A1256A31FF5E042001BB356 /* PublicServiceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicServiceVC.h; sourceTree = "<group>"; };
+		1A1256A41FF5E042001BB356 /* PublicServiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicServiceVC.m; sourceTree = "<group>"; };
+		1A3CCEEE1FFDC8270058F1B7 /* SendForAllMsgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendForAllMsgVC.h; sourceTree = "<group>"; };
+		1A3CCEEF1FFDC8270058F1B7 /* SendForAllMsgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendForAllMsgVC.m; sourceTree = "<group>"; };
+		1A3CCEF11FFDC83B0058F1B7 /* SendForAllMsgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendForAllMsgView.h; sourceTree = "<group>"; };
+		1A3CCEF21FFDC83B0058F1B7 /* SendForAllMsgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendForAllMsgView.m; sourceTree = "<group>"; };
+		1A3CCEF41FFDC8440058F1B7 /* SendForAllMsgView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendForAllMsgView.xib; sourceTree = "<group>"; };
+		1A3CCEFA1FFDD7880058F1B7 /* 20180104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20180104.jpg; sourceTree = "<group>"; };
+		1A3CCEFC1FFDE9B00058F1B7 /* 2018010401.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2018010401.jpg; sourceTree = "<group>"; };
+		1A9D590C1FF4ED6600B243D4 /* ryUserList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ryUserList.plist; sourceTree = "<group>"; };
+		1A9D590E1FF4F35600B243D4 /* ExtendConversationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtendConversationVC.h; sourceTree = "<group>"; };
+		1A9D590F1FF4F35600B243D4 /* ExtendConversationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendConversationVC.m; sourceTree = "<group>"; };
+		1A9D59111FF4F37E00B243D4 /* ExtendChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtendChatVC.h; sourceTree = "<group>"; };
+		1A9D59121FF4F37E00B243D4 /* ExtendChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtendChatVC.m; sourceTree = "<group>"; };
+		1A9D59141FF4F8AA00B243D4 /* RYDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYDataSource.m; sourceTree = "<group>"; };
+		1A9D59151FF4F8AA00B243D4 /* RYDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYDataSource.h; sourceTree = "<group>"; };
+		1AA7FC891FF4E5C40093EB9D /* rongyunDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rongyunDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA7FC8D1FF4E5C40093EB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AA7FC8F1FF4E5C40093EB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AA7FC901FF4E5C40093EB9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AA7FC921FF4E5C40093EB9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AA7FC931FF4E5C40093EB9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AA7FC961FF4E5C40093EB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AA7FC981FF4E5C40093EB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA7FC9B1FF4E5C40093EB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AA7FC9D1FF4E5C40093EB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42348DEB124EAA8F741624C5 /* Pods-rongyunDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongyunDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rongyunDemo/Pods-rongyunDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		95F8A593F74E3FA9F3EDA39D /* Pods-rongyunDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongyunDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-rongyunDemo/Pods-rongyunDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F0E91127EC9BB919EA31D904 /* libPods-rongyunDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rongyunDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA7FC861FF4E5C40093EB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C33274061DD7507105FB636 /* libPods-rongyunDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0EE88D1FF60B9C00C08CC5 /* 发送公众号消息 */ = {
+			isa = PBXGroup;
+			children = (
+				1A0EE88E1FF60BBF00C08CC5 /* SendTextServiceMsg.h */,
+				1A0EE88F1FF60BBF00C08CC5 /* SendTextServiceMsg.m */,
+				1A0EE8911FF60BD200C08CC5 /* SendMulMediaServiceMsg.h */,
+				1A0EE8921FF60BD200C08CC5 /* SendMulMediaServiceMsg.m */,
+				1A0EE8941FF60D7300C08CC5 /* TextServiceMsgView.h */,
+				1A0EE8951FF60D7300C08CC5 /* TextServiceMsgView.m */,
+				1A0EE8971FF60D7E00C08CC5 /* TextServiceMsgView.xib */,
+				1A0EE8991FF60DAE00C08CC5 /* MultiServiceMsgView.h */,
+				1A0EE89A1FF60DAE00C08CC5 /* MultiServiceMsgView.m */,
+				1A0EE89C1FF60DB600C08CC5 /* MultiServiceMsgView.xib */,
+				1A3CCEEE1FFDC8270058F1B7 /* SendForAllMsgVC.h */,
+				1A3CCEEF1FFDC8270058F1B7 /* SendForAllMsgVC.m */,
+				1A3CCEF11FFDC83B0058F1B7 /* SendForAllMsgView.h */,
+				1A3CCEF21FFDC83B0058F1B7 /* SendForAllMsgView.m */,
+				1A3CCEF41FFDC8440058F1B7 /* SendForAllMsgView.xib */,
+				1A3CCEFA1FFDD7880058F1B7 /* 20180104.jpg */,
+				1A3CCEFC1FFDE9B00058F1B7 /* 2018010401.jpg */,
+			);
+			path = "发送公众号消息";
+			sourceTree = "<group>";
+		};
+		1AA7FC801FF4E5C40093EB9D = {
+			isa = PBXGroup;
+			children = (
+				1AA7FC8B1FF4E5C40093EB9D /* rongyunDemo */,
+				1AA7FC8A1FF4E5C40093EB9D /* Products */,
+				2EC73282CBC12B2D94591B80 /* Pods */,
+				F2CD7B30E8102894E0B2B278 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA7FC8A1FF4E5C40093EB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7FC891FF4E5C40093EB9D /* rongyunDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA7FC8B1FF4E5C40093EB9D /* rongyunDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A0EE88D1FF60B9C00C08CC5 /* 发送公众号消息 */,
+				1AA7FC8F1FF4E5C40093EB9D /* AppDelegate.h */,
+				1AA7FC901FF4E5C40093EB9D /* AppDelegate.m */,
+				1AA7FC921FF4E5C40093EB9D /* ViewController.h */,
+				1AA7FC931FF4E5C40093EB9D /* ViewController.m */,
+				1A9D590E1FF4F35600B243D4 /* ExtendConversationVC.h */,
+				1A9D590F1FF4F35600B243D4 /* ExtendConversationVC.m */,
+				1A9D59111FF4F37E00B243D4 /* ExtendChatVC.h */,
+				1A9D59121FF4F37E00B243D4 /* ExtendChatVC.m */,
+				1A9D59151FF4F8AA00B243D4 /* RYDataSource.h */,
+				1A9D59141FF4F8AA00B243D4 /* RYDataSource.m */,
+				1A1256A31FF5E042001BB356 /* PublicServiceVC.h */,
+				1A1256A41FF5E042001BB356 /* PublicServiceVC.m */,
+				1A12569B1FF5DF21001BB356 /* chat_room_inactive.png */,
+				1A12569D1FF5DF29001BB356 /* chat_room.png */,
+				1A12569F1FF5DF45001BB356 /* icon_Contacts_hover.png */,
+				1A1256A11FF5DF4C001BB356 /* icon_Contacts.png */,
+				1AA7FC951FF4E5C40093EB9D /* Main.storyboard */,
+				1AA7FC981FF4E5C40093EB9D /* Assets.xcassets */,
+				1AA7FC9A1FF4E5C40093EB9D /* LaunchScreen.storyboard */,
+				1AA7FC9D1FF4E5C40093EB9D /* Info.plist */,
+				1AA7FC8C1FF4E5C40093EB9D /* Supporting Files */,
+				1A9D590C1FF4ED6600B243D4 /* ryUserList.plist */,
+			);
+			path = rongyunDemo;
+			sourceTree = "<group>";
+		};
+		1AA7FC8C1FF4E5C40093EB9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7FC8D1FF4E5C40093EB9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EC73282CBC12B2D94591B80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42348DEB124EAA8F741624C5 /* Pods-rongyunDemo.debug.xcconfig */,
+				95F8A593F74E3FA9F3EDA39D /* Pods-rongyunDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2CD7B30E8102894E0B2B278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E91127EC9BB919EA31D904 /* libPods-rongyunDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA7FC881FF4E5C40093EB9D /* rongyunDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA7FCA01FF4E5C40093EB9D /* Build configuration list for PBXNativeTarget "rongyunDemo" */;
+			buildPhases = (
+				78BE9EE2B990F1D46A8A39B4 /* [CP] Check Pods Manifest.lock */,
+				1AA7FC851FF4E5C40093EB9D /* Sources */,
+				1AA7FC861FF4E5C40093EB9D /* Frameworks */,
+				1AA7FC871FF4E5C40093EB9D /* Resources */,
+				0E9C4B69BE8D4E43920B15B3 /* [CP] Embed Pods Frameworks */,
+				9F7814657D6E073FAC9CD52F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rongyunDemo;
+			productName = rongyunDemo;
+			productReference = 1AA7FC891FF4E5C40093EB9D /* rongyunDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AA7FC811FF4E5C40093EB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "易博";
+				TargetAttributes = {
+					1AA7FC881FF4E5C40093EB9D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 4FZEH78SM7;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 1AA7FC841FF4E5C40093EB9D /* Build configuration list for PBXProject "rongyunDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AA7FC801FF4E5C40093EB9D;
+			productRefGroup = 1AA7FC8A1FF4E5C40093EB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA7FC881FF4E5C40093EB9D /* rongyunDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA7FC871FF4E5C40093EB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0EE89D1FF60DB700C08CC5 /* MultiServiceMsgView.xib in Resources */,
+				1A1256A21FF5DF4C001BB356 /* icon_Contacts.png in Resources */,
+				1A9D590D1FF4ED6600B243D4 /* ryUserList.plist in Resources */,
+				1A3CCEF51FFDC8440058F1B7 /* SendForAllMsgView.xib in Resources */,
+				1A12569E1FF5DF29001BB356 /* chat_room.png in Resources */,
+				1A3CCEFD1FFDE9B00058F1B7 /* 2018010401.jpg in Resources */,
+				1AA7FC9C1FF4E5C40093EB9D /* LaunchScreen.storyboard in Resources */,
+				1AA7FC991FF4E5C40093EB9D /* Assets.xcassets in Resources */,
+				1A3CCEFB1FFDD7880058F1B7 /* 20180104.jpg in Resources */,
+				1A1256A01FF5DF45001BB356 /* icon_Contacts_hover.png in Resources */,
+				1AA7FC971FF4E5C40093EB9D /* Main.storyboard in Resources */,
+				1A12569C1FF5DF21001BB356 /* chat_room_inactive.png in Resources */,
+				1A0EE8981FF60D7E00C08CC5 /* TextServiceMsgView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E9C4B69BE8D4E43920B15B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rongyunDemo/Pods-rongyunDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78BE9EE2B990F1D46A8A39B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rongyunDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7814657D6E073FAC9CD52F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rongyunDemo/Pods-rongyunDemo-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rongyunDemo/Pods-rongyunDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA7FC851FF4E5C40093EB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA7FC941FF4E5C40093EB9D /* ViewController.m in Sources */,
+				1A0EE8961FF60D7300C08CC5 /* TextServiceMsgView.m in Sources */,
+				1A3CCEF01FFDC8270058F1B7 /* SendForAllMsgVC.m in Sources */,
+				1A0EE8931FF60BD200C08CC5 /* SendMulMediaServiceMsg.m in Sources */,
+				1A1256A51FF5E042001BB356 /* PublicServiceVC.m in Sources */,
+				1A9D59101FF4F35600B243D4 /* ExtendConversationVC.m in Sources */,
+				1A3CCEF31FFDC83B0058F1B7 /* SendForAllMsgView.m in Sources */,
+				1A9D59131FF4F37E00B243D4 /* ExtendChatVC.m in Sources */,
+				1A9D59161FF4F8AA00B243D4 /* RYDataSource.m in Sources */,
+				1AA7FC911FF4E5C40093EB9D /* AppDelegate.m in Sources */,
+				1A0EE8901FF60BBF00C08CC5 /* SendTextServiceMsg.m in Sources */,
+				1A0EE89B1FF60DAE00C08CC5 /* MultiServiceMsgView.m in Sources */,
+				1AA7FC8E1FF4E5C40093EB9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AA7FC951FF4E5C40093EB9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA7FC961FF4E5C40093EB9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AA7FC9A1FF4E5C40093EB9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA7FC9B1FF4E5C40093EB9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AA7FC9E1FF4E5C40093EB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AA7FC9F1FF4E5C40093EB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AA7FCA11FF4E5C40093EB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42348DEB124EAA8F741624C5 /* Pods-rongyunDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FZEH78SM7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = rongyunDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.test.rongyunDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "751548dc-317a-4a25-9f59-a8b4965b4fb7";
+				PROVISIONING_PROFILE_SPECIFIER = mau_ios_test;
+			};
+			name = Debug;
+		};
+		1AA7FCA21FF4E5C40093EB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F8A593F74E3FA9F3EDA39D /* Pods-rongyunDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FZEH78SM7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = rongyunDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.test.rongyunDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "751548dc-317a-4a25-9f59-a8b4965b4fb7";
+				PROVISIONING_PROFILE_SPECIFIER = mau_ios_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA7FC841FF4E5C40093EB9D /* Build configuration list for PBXProject "rongyunDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA7FC9E1FF4E5C40093EB9D /* Debug */,
+				1AA7FC9F1FF4E5C40093EB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA7FCA01FF4E5C40093EB9D /* Build configuration list for PBXNativeTarget "rongyunDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA7FCA11FF4E5C40093EB9D /* Debug */,
+				1AA7FCA21FF4E5C40093EB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AA7FC811FF4E5C40093EB9D /* Project object */;
+}
